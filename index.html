@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="VIRESMED — a science-led prostate formula built for men who refuse to let age decide. Stronger flow, deeper sleep, full nights without bathroom trips." />
+<title>VIRESMED — Reclaim Strong Flow, Deep Sleep, and Quiet Nights</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- 18+ AGE VERIFICATION MODAL -->
+<div class="age-gate" id="ageGate" aria-modal="true" role="dialog" aria-labelledby="ageGateTitle">
+  <div class="age-gate-card">
+    <div class="age-gate-brand">
+      <span class="brand-mark">VM</span>
+      <span class="brand-name">VIRESMED</span>
+    </div>
+    <div class="age-gate-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+    </div>
+    <h2 id="ageGateTitle">Are you 18 or older?</h2>
+    <p>This website contains information about a dietary supplement for adult men. You must be at least 18 years old to enter.</p>
+    <div class="age-gate-buttons">
+      <button class="btn btn-primary" id="ageYes">Yes, I'm 18+</button>
+      <button class="btn btn-outline" id="ageNo">No, exit site</button>
+    </div>
+    <p class="age-gate-fine">By entering, you agree to our <a href="terms.html">Terms</a>, <a href="privacy.html">Privacy Policy</a>, and <a href="disclaimer.html">Disclaimer</a>.</p>
+  </div>
+</div>
+
+<!-- COOKIE CONSENT BANNER -->
+<div class="cookie-bar" id="cookieBar" aria-live="polite">
+  <div class="container cookie-inner">
+    <div class="cookie-text">
+      <strong>We use cookies</strong>
+      <span>to improve your experience, analyze traffic, and personalize content. Read our <a href="privacy.html">Privacy Policy</a>.</span>
+    </div>
+    <div class="cookie-actions">
+      <button class="btn btn-outline btn-sm" id="cookieDecline">Decline</button>
+      <button class="btn btn-primary btn-sm" id="cookieAccept">Accept all</button>
+    </div>
+  </div>
+</div>
+
+<!-- ANNOUNCEMENT BAR -->
+<div class="announce">
+  <div class="container announce-inner">
+    <span class="dot"></span>
+    <span>Free U.S. shipping on 6-bottle orders &middot; 180-day money-back guarantee</span>
+  </div>
+</div>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a href="#top" class="brand">
+      <span class="brand-mark">VM</span>
+      <span class="brand-name">VIRESMED</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#benefits">Benefits</a>
+      <a href="#ingredients">Ingredients</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#CTA_LINK" class="btn btn-sm btn-primary nav-cta">Order Now</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          Doctor-formulated · Made in the USA
+        </div>
+        <h1 class="display">
+          Reclaim <em>strong flow</em>, deeper sleep, and calmer nights.
+        </h1>
+        <p class="lead">
+          A precision blend of 11 prostate-supporting nutrients, built for men who refuse to let age dictate how they live, sleep, and perform.
+        </p>
+        <div class="hero-cta">
+          <a href="#CTA_LINK" class="btn btn-primary btn-lg">
+            Try VIRESMED Risk-Free
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+          </a>
+          <div class="hero-trust">
+            <div class="stars" aria-label="4.9 out of 5 stars">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <span>Highly rated by customers</span>
+          </div>
+        </div>
+        <ul class="hero-bullets">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 100% natural &amp; non-GMO</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> GMP-certified facility</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 180-day money-back guarantee</li>
+        </ul>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="bottle-stage">
+          <div class="hero-glow"></div>
+          <!-- Hero product image with surrounding ingredients -->
+          <img
+            class="hero-product"
+            src="images/product.png"
+            alt="VIRESMED Advanced Prostate Formula"
+            loading="eager" />
+          <div class="floating-card card-1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 7v6c0 5 3.5 9.5 9 11 5.5-1.5 9-6 9-11V7l-9-5z"/><path d="M9 12l2 2 4-4"/></svg>
+            <div>
+              <span class="fc-num-sm">FDA</span>
+              <span class="fc-text">Registered Facility</span>
+            </div>
+          </div>
+          <div class="floating-card card-2">
+            <span class="fc-num">180</span>
+            <span class="fc-text">Day money-back guarantee</span>
+          </div>
+          <div class="floating-card card-3">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+            <div>
+              <span class="fc-num-sm">GMP</span>
+              <span class="fc-text">Certified Quality</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-bg-orb orb-1"></div>
+    <div class="hero-bg-orb orb-2"></div>
+  </section>
+
+  <!-- QUALITY TRUST STRIP -->
+  <section class="logos">
+    <div class="container">
+      <p class="logos-label">Quality you can trust</p>
+      <div class="logos-grid">
+        <span class="logo-item">GMP-CERTIFIED</span>
+        <span class="logo-item">MADE IN THE USA</span>
+        <span class="logo-item">NON-GMO</span>
+        <span class="logo-item">3RD-PARTY TESTED</span>
+        <span class="logo-item">NATURAL INGREDIENTS</span>
+        <span class="logo-item">180-DAY GUARANTEE</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 KEY BENEFIT BADGES -->
+  <section class="benefit-badges">
+    <div class="container">
+      <div class="badge-row">
+        <div class="badge-item reveal">
+          <div class="badge-circle">
+            <img src="images/Layer-91.png" alt="Prostate Health" loading="lazy">
+          </div>
+          <h4>Prostate Health</h4>
+          <p>Supports healthy cell function</p>
+        </div>
+        <div class="badge-item reveal">
+          <div class="badge-circle">
+            <img src="images/Layer-92.png" alt="Happiness" loading="lazy">
+          </div>
+          <h4>Happiness</h4>
+          <p>Lifts mood &amp; confidence</p>
+        </div>
+        <div class="badge-item reveal">
+          <div class="badge-circle">
+            <img src="images/Layer-93.png" alt="Energy" loading="lazy">
+          </div>
+          <h4>Energy</h4>
+          <p>All-day stamina &amp; drive</p>
+        </div>
+        <div class="badge-item reveal">
+          <div class="badge-circle">
+            <img src="images/Layer-94.png" alt="Strong Flow" loading="lazy">
+          </div>
+          <h4>Strong Flow</h4>
+          <p>Smooth, steady urination</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM AGITATION -->
+  <section class="problem">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center"><span class="eyebrow-dot"></span>You're not alone</span>
+        <h2 class="h2">If you're over 40, this is probably familiar</h2>
+        <p class="section-sub">Roughly 1 in 2 men over 50 silently deal with prostate-related discomfort. Most never talk about it — and many never know there is a better option.</p>
+      </div>
+      <div class="problem-grid">
+        <div class="problem-card reveal">
+          <div class="problem-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2v10l4 4"/><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <h3>Up 3+ times a night</h3>
+          <p>Broken sleep that leaves you exhausted before the day even starts.</p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="problem-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 12c2-4 5-7 9-7s7 3 9 7c-2 4-5 7-9 7s-7-3-9-7z"/><circle cx="12" cy="12" r="3"/></svg>
+          </div>
+          <h3>Weak, hesitant flow</h3>
+          <p>That frustrating start-stop-strain you've started planning your day around.</p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="problem-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Fading confidence</h3>
+          <p>Energy, drive, and presence in the bedroom that don't feel like yours anymore.</p>
+        </div>
+        <div class="problem-card reveal">
+          <div class="problem-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          </div>
+          <h3>Quietly worrying</h3>
+          <p>The nagging "is this just how it is now?" you don't say out loud — but it's there.</p>
+        </div>
+      </div>
+      <p class="problem-note reveal">
+        It doesn't have to stay this way. <strong>The right nutrients, in the right ratios, change what's possible.</strong>
+      </p>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section id="benefits" class="benefits">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow"><span class="eyebrow-dot"></span>What VIRESMED does</span>
+        <h2 class="h2">Designed to work where it matters — <em>quietly, daily, completely</em>.</h2>
+      </div>
+      <div class="benefits-grid">
+        <article class="benefit reveal">
+          <div class="benefit-num">01</div>
+          <h3>Stronger, steadier flow</h3>
+          <p>Supports healthy blood circulation around the prostate so urination feels effortless instead of effortful.</p>
+        </article>
+        <article class="benefit reveal">
+          <div class="benefit-num">02</div>
+          <h3>Full nights of sleep</h3>
+          <p>Magnesium and adaptogens calm the nervous system and the bladder — so you stay in bed instead of getting up at 2am.</p>
+        </article>
+        <article class="benefit reveal">
+          <div class="benefit-num">03</div>
+          <h3>Drive that comes back</h3>
+          <p>Zinc, Maca, and Tongkat Ali support the hormonal pathways behind libido, performance, and presence.</p>
+        </article>
+        <article class="benefit reveal">
+          <div class="benefit-num">04</div>
+          <h3>Energy that lasts</h3>
+          <p>Panax Ginseng and Ashwagandha help replenish the daily energy reserves that age and stress quietly drain.</p>
+        </article>
+        <article class="benefit reveal">
+          <div class="benefit-num">05</div>
+          <h3>Cardiovascular support</h3>
+          <p>Nutrients selected for their downstream support of healthy blood pressure, blood sugar, and arterial flow.</p>
+        </article>
+        <article class="benefit reveal">
+          <div class="benefit-num">06</div>
+          <h3>Quiet confidence</h3>
+          <p>When the body feels like yours again, everything else — relationships, work, mood — follows.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SCIENCE / HOW IT WORKS -->
+  <section class="science">
+    <div class="container science-grid">
+      <div class="science-copy reveal">
+        <span class="eyebrow"><span class="eyebrow-dot"></span>The science behind it</span>
+        <h2 class="h2">It starts with healthy <em>blood flow</em>.</h2>
+        <p>
+          A 2023 study from Fukushima Medical University found that healthy circulation around the prostate plays a far bigger role in long-term function than previously understood — specifically in how the surrounding cells behave and regenerate.
+        </p>
+        <p>
+          VIRESMED was built around that insight. Each of its 11 ingredients was selected to <strong>support the circulation, hormonal balance, and cellular environment</strong> that keep the prostate working the way it should.
+        </p>
+        <a href="#ingredients" class="link-arrow">
+          See the full ingredient breakdown
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="science-visual reveal">
+        <img src="images/rbc-image.png" alt="Healthy blood flow — red blood cells in a vessel" loading="lazy" class="science-image">
+        <img src="images/image3.png" alt="Nitric Oxide molecule" loading="lazy" class="science-molecule">
+        <div class="science-callout">
+          <strong>Research-backed</strong>
+          <span>Clinical studies on key ingredients have shown measurable circulation support.</span>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="science-stats reveal">
+        <div class="stat-card">
+          <div class="stat-num">11</div>
+          <div class="stat-label">Synergistic nutrients</div>
+          <div class="stat-desc">Each chosen for a specific pathway, dosed to work together.</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">2023</div>
+          <div class="stat-label">Research-led formula</div>
+          <div class="stat-desc">Updated to reflect the latest peer-reviewed prostate research.</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">GMP</div>
+          <div class="stat-label">US-made &amp; tested</div>
+          <div class="stat-desc">Manufactured in a GMP-certified facility and third-party verified.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPPLEMENT FACTS PANEL -->
+  <section class="facts-panel">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center"><span class="eyebrow-dot"></span>Full transparency</span>
+        <h2 class="h2">Every ingredient. Every dose. Published.</h2>
+        <p class="section-sub">We don't hide behind "proprietary blends." Here's exactly what's in every scoop.</p>
+      </div>
+      <div class="facts-grid reveal">
+        <div class="facts-product">
+          <img src="images/product12.png" alt="VIRESMED product with key vitamins" loading="lazy">
+        </div>
+        <div class="facts-panel-image">
+          <img src="images/Supplement-Facts.png" alt="VIRESMED Supplement Facts panel" loading="lazy">
+          <div class="facts-tag">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span>Verified by third-party lab</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INGREDIENTS -->
+  <section id="ingredients" class="ingredients">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center"><span class="eyebrow-dot"></span>Inside every scoop</span>
+        <h2 class="h2">11 ingredients. Zero filler. Every one earns its place.</h2>
+        <p class="section-sub">Sourced globally, dosed responsibly, blended in the USA.</p>
+      </div>
+
+      <!-- SWAP: Replace ingredient image URLs with your branded product photos if needed -->
+      <div class="ingredients-grid">
+        <article class="ing-card ing-feature reveal">
+          <div class="ing-tag">Featured</div>
+          <div class="ing-image ing-image-large">
+            <img src="images/image4.png" alt="Boron mineral" loading="lazy">
+          </div>
+          <div class="ing-feature-body">
+            <h3>Boron</h3>
+            <p class="ing-origin">From the mineral-rich waters of Lake Yamdok Cho, Tibet</p>
+            <p>Supports the body's natural detoxification pathways, inflammation response, and cognitive sharpness — three quiet pillars of long-term prostate health.</p>
+          </div>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image5.png" alt="Tongkat Ali root" loading="lazy">
+          </div>
+          <h3>Tongkat Ali</h3>
+          <p class="ing-origin">Southeast Asia</p>
+          <p>Long-used to support male performance, fertility, and prostate function. A powerful antioxidant root.</p>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image6.png" alt="Ashwagandha powder" loading="lazy">
+          </div>
+          <h3>Ashwagandha</h3>
+          <p class="ing-origin">India · 6,000+ years of use</p>
+          <p>An adaptogen that supports lean muscle, healthy stress response, and male reproductive health.</p>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image7.png" alt="Fenugreek seeds" loading="lazy">
+          </div>
+          <h3>Fenugreek</h3>
+          <p class="ing-origin">Mediterranean</p>
+          <p>Rich in furostanol saponins — compounds shown to support hormonal balance, libido, and prostate function.</p>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image8.png" alt="Panax Ginseng root" loading="lazy">
+          </div>
+          <h3>Panax Ginseng</h3>
+          <p class="ing-origin">China · 5,000 years</p>
+          <p>A revered tonic for circulation, mental clarity, immune resilience, and steady, all-day energy.</p>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image9.png" alt="Maca root" loading="lazy">
+          </div>
+          <h3>Maca Root</h3>
+          <p class="ing-origin">Peruvian Andes</p>
+          <p>Traditionally used to support drive, stamina, energy levels, and healthy reproductive function.</p>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image10.png" alt="Artichoke" loading="lazy">
+          </div>
+          <h3>Artichoke Extract</h3>
+          <p class="ing-origin">Mediterranean</p>
+          <p>A natural antioxidant that supports oxytocin release, cardiovascular health, and a steady mood.</p>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image11.png" alt="Nettle plant" loading="lazy">
+          </div>
+          <h3>Nettle Root</h3>
+          <p class="ing-origin">Europe · Traditional use</p>
+          <p>A centuries-old ally for urinary tract comfort, healthy hormone levels, and balanced blood pressure.</p>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image13.png" alt="Zinc supplement" loading="lazy">
+          </div>
+          <h3>Zinc</h3>
+          <p class="ing-origin">Essential mineral</p>
+          <p>Critical for male hormone production, sperm health, libido, and overall sexual function.</p>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image14.png" alt="Magnesium" loading="lazy">
+          </div>
+          <h3>Magnesium</h3>
+          <p class="ing-origin">Essential mineral</p>
+          <p>Supports deeper sleep, healthy blood vessels, stamina, and a calmer, sharper mind.</p>
+        </article>
+        <article class="ing-card reveal">
+          <div class="ing-image">
+            <img src="images/image15.png" alt="Vitamin D" loading="lazy">
+          </div>
+          <h3>Vitamin D</h3>
+          <p class="ing-origin">The sunshine vitamin</p>
+          <p>Foundational for prostate function, mood, healthy testosterone, immune defense, and bone density.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIFESTYLE STRIP -->
+  <section class="lifestyle-strip">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center"><span class="eyebrow-dot"></span>Built for the life you want back</span>
+        <h2 class="h2">Sleep deeper. Move freely. Live present.</h2>
+      </div>
+      <div class="lifestyle-grid">
+        <figure class="lifestyle-card reveal">
+          <img src="https://images.unsplash.com/photo-1520206183501-b80df61043c2?w=600&q=80&auto=format&fit=crop" alt="Sleeping peacefully" loading="lazy" onerror="this.parentElement.classList.add('img-fallback'); this.style.display='none';">
+          <figcaption><strong>Restful nights</strong><span>Sleep through, wake clear.</span></figcaption>
+        </figure>
+        <figure class="lifestyle-card reveal">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&q=80&auto=format&fit=crop" alt="Active lifestyle" loading="lazy" onerror="this.parentElement.classList.add('img-fallback'); this.style.display='none';">
+          <figcaption><strong>Active days</strong><span>Stamina that doesn't quit.</span></figcaption>
+        </figure>
+        <figure class="lifestyle-card reveal">
+          <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=80&auto=format&fit=crop" alt="Confident man" loading="lazy" onerror="this.parentElement.classList.add('img-fallback'); this.style.display='none';">
+          <figcaption><strong>Quiet confidence</strong><span>Feel like yourself again.</span></figcaption>
+        </figure>
+        <figure class="lifestyle-card reveal">
+          <img src="https://images.unsplash.com/photo-1542178243-bc20204b769f?w=600&q=80&auto=format&fit=crop" alt="Vital and present" loading="lazy" onerror="this.parentElement.classList.add('img-fallback'); this.style.display='none';">
+          <figcaption><strong>Present moments</strong><span>Show up for what matters.</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOCTOR ENDORSEMENT -->
+  <section class="doctor">
+    <div class="container doctor-grid">
+      <div class="doctor-photo reveal">
+        <!-- SWAP: Replace doctor image src with a real headshot of your endorsing physician -->
+        <div class="doc-avatar">
+          <img
+            src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500&h=500&fit=crop&q=80&auto=format"
+            alt="Endorsing physician"
+            loading="lazy"
+            onerror="this.parentElement.classList.add('img-fallback'); this.style.display='none'; var i=document.createElement('span'); i.className='doc-initials'; i.textContent='DR'; this.parentElement.appendChild(i);" />
+        </div>
+        <div class="doc-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 7v6c0 5 3.5 9.5 9 11 5.5-1.5 9-6 9-11V7l-9-5z"/><path d="M9 12l2 2 4-4"/></svg>
+        </div>
+      </div>
+      <div class="doctor-copy reveal">
+        <span class="eyebrow"><span class="eyebrow-dot"></span>From the formulator</span>
+        <blockquote>
+          "For too long, men were told prostate trouble was just part of aging. The truth is more hopeful — when you support circulation, hormones, and the cellular environment together, the body responds. VIRESMED is the formula I wish more men had access to ten years ago."
+        </blockquote>
+        <div class="doctor-attrib">
+          <strong>[Dr. Name Placeholder]</strong>
+          <span>Board-Certified Urologist · 20+ years in men's health</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section id="reviews" class="reviews">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center"><span class="eyebrow-dot"></span>Real men · real results</span>
+        <h2 class="h2">Thousands of men. One thing in common.</h2>
+        <p class="section-sub">They got their sleep — and their confidence — back.</p>
+      </div>
+
+      <div class="reviews-magazine reveal">
+        <!-- Feature testimonial (large) -->
+        <article class="review-feature">
+          <div class="review-feature-image">
+            <img src="https://images.unsplash.com/photo-1559548331-f9cb98001426?w=600&h=750&fit=crop&q=80&auto=format" alt="Michael R." loading="lazy">
+            <div class="review-feature-stat">
+              <span class="stat-big">★★★★★</span>
+              <span class="stat-label">Trusted by men who want a better daily routine</span>
+            </div>
+          </div>
+          <div class="review-feature-body">
+            <div class="stars-row">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+            <span class="review-eyebrow">Featured story</span>
+            <h3 class="review-feature-quote">"First time in years I slept through until 6am — and stayed asleep."</h3>
+            <p class="review-feature-text">I was up two, sometimes three times a night for almost six years. Three weeks into VIRESMED and I started sleeping clean through. My wife noticed before I did. The mornings feel different now — clear, present, not foggy. I tell every guy I know.</p>
+            <div class="review-author-meta">
+              <strong>Michael R.</strong>
+              <span>62 · Verified buyer · 5-month customer</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Secondary testimonials grid -->
+        <div class="reviews-secondary">
+        <article class="review reveal">
+          <div class="stars-row">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h4>"I stopped planning my errands around bathrooms."</h4>
+          <p>I used to map out every gas station between home and the office. After two months on VIRESMED that anxiety is gone. Real change.</p>
+          <div class="review-author">
+            <div class="avatar avatar-2">
+              <img src="https://images.unsplash.com/photo-1545167622-3a6ac756afa4?w=160&h=160&fit=crop&q=80&auto=format" alt="David L." loading="lazy" onerror="this.style.display='none'; this.parentElement.textContent='D';">
+            </div>
+            <div>
+              <strong>David L.</strong>
+              <span>Verified buyer · 58</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review reveal">
+          <div class="stars-row">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h4>"My energy and drive came back."</h4>
+          <p>Not just the prostate stuff — my whole baseline lifted. More energy, better mood, things in the bedroom that I thought were behind me.</p>
+          <div class="review-author">
+            <div class="avatar avatar-3">
+              <img src="https://images.unsplash.com/photo-1542178243-bc20204b769f?w=160&h=160&fit=crop&q=80&auto=format" alt="Robert K." loading="lazy" onerror="this.style.display='none'; this.parentElement.textContent='R';">
+            </div>
+            <div>
+              <strong>Robert K.</strong>
+              <span>Verified buyer · 55</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review reveal">
+          <div class="stars-row">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h4>"I gave it 90 days. Worth every dollar."</h4>
+          <p>I tried two other products before this. They did nothing. VIRESMED is the only one that actually made a difference I could feel.</p>
+          <div class="review-author">
+            <div class="avatar avatar-4">
+              <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=160&h=160&fit=crop&q=80&auto=format" alt="James P." loading="lazy" onerror="this.style.display='none'; this.parentElement.textContent='J';">
+            </div>
+            <div>
+              <strong>James P.</strong>
+              <span>Verified buyer · 67</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review reveal">
+          <div class="stars-row">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h4>"I feel like myself again."</h4>
+          <p>It's been a quiet, steady change — better sleep, more comfortable mornings, more energy through the day. I'm telling every guy I know who's been hesitant to talk about this stuff.</p>
+          <div class="review-author">
+            <div class="avatar avatar-5">
+              <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?w=160&h=160&fit=crop&q=80&auto=format" alt="Thomas B." loading="lazy" onerror="this.style.display='none'; this.parentElement.textContent='T';">
+            </div>
+            <div>
+              <strong>Thomas B.</strong>
+              <span>Verified buyer · 61</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="review reveal">
+          <div class="stars-row">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <h4>"Quietly the best buying decision I've made."</h4>
+          <p>It's not flashy, it just works. Flow is stronger, sleep is solid, mood is better. The 180-day guarantee is what got me to try. Glad I did.</p>
+          <div class="review-author">
+            <div class="avatar avatar-6">
+              <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=160&h=160&fit=crop&q=80&auto=format" alt="Steven W." loading="lazy" onerror="this.style.display='none'; this.parentElement.textContent='S';">
+            </div>
+            <div>
+              <strong>Steven W.</strong>
+              <span>Verified buyer · 59</span>
+            </div>
+          </div>
+        </article>
+        </div>
+      </div>
+
+      <div class="reviews-cta reveal">
+        <p>Join thousands of men who took the first step.</p>
+        <a href="#CTA_LINK" class="btn btn-primary">See pricing &amp; get started</a>
+      </div>
+
+      <p class="results-disclaimer reveal">
+        <strong>*Individual results may vary.</strong> Testimonials reflect the personal experiences of individual customers. The statements made about VIRESMED have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Always consult your healthcare provider before starting any new supplement.
+      </p>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="pricing">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center"><span class="eyebrow-dot"></span>Choose your supply</span>
+        <h2 class="h2">Pick the package that fits your goals.</h2>
+        <p class="section-sub">Many men report meaningful results in 60-90 days. The 6-bottle option is a popular choice for that reason.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- 1 BOTTLE -->
+        <article class="price-card reveal">
+          <div class="price-image">
+            <img src="images/1-bottle.png" alt="VIRESMED 1 bottle pack" loading="lazy">
+          </div>
+          <header>
+            <span class="price-pill">Sample</span>
+            <h3>1 Bottle</h3>
+            <p class="price-supply">30-Day Supply</p>
+          </header>
+          <div class="price-amount">
+            <span class="dollar">$</span>
+            <span class="price-num">79</span>
+            <span class="price-unit">/bottle</span>
+          </div>
+          <p class="price-total">Total: <strong>$79</strong> + small shipping fee</p>
+          <ul class="price-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 30-day supply</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 180-day guarantee</li>
+            <li class="muted">Free bonuses not included</li>
+          </ul>
+          <a href="#CTA_LINK" class="btn btn-outline btn-block">Order 1 Bottle</a>
+        </article>
+
+        <!-- 6 BOTTLE - FEATURED -->
+        <article class="price-card price-featured reveal">
+          <div class="featured-badge">MOST POPULAR · Save $1,548</div>
+          <div class="price-image">
+            <img src="images/6-bottle.png" alt="VIRESMED 6 bottle pack" loading="lazy">
+          </div>
+          <header>
+            <span class="price-pill price-pill-gold">Best Value</span>
+            <h3>6 Bottles</h3>
+            <p class="price-supply">180-Day Supply</p>
+          </header>
+          <div class="price-amount">
+            <span class="dollar">$</span>
+            <span class="price-num">39</span>
+            <span class="price-unit">/bottle</span>
+          </div>
+          <p class="price-total">Total: <strong>$234</strong> · <span class="price-strike">$1,782</span></p>
+          <ul class="price-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 180-day supply</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> <strong>FREE shipping</strong></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 2 FREE bonus guides ($74 value)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 180-day guarantee</li>
+          </ul>
+          <a href="#CTA_LINK" class="btn btn-primary btn-block btn-lg">Order 6 Bottles</a>
+        </article>
+
+        <!-- 3 BOTTLE -->
+        <article class="price-card reveal">
+          <div class="price-image">
+            <img src="images/3-bottle.png" alt="VIRESMED 3 bottle pack" loading="lazy">
+          </div>
+          <header>
+            <span class="price-pill">Great Deal</span>
+            <h3>3 Bottles</h3>
+            <p class="price-supply">90-Day Supply</p>
+          </header>
+          <div class="price-amount">
+            <span class="dollar">$</span>
+            <span class="price-num">59</span>
+            <span class="price-unit">/bottle</span>
+          </div>
+          <p class="price-total">Total: <strong>$177</strong> · <span class="price-strike">$891</span></p>
+          <ul class="price-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 90-day supply</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 2 FREE bonus guides ($74 value)</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 180-day guarantee</li>
+          </ul>
+          <a href="#CTA_LINK" class="btn btn-outline btn-block">Order 3 Bottles</a>
+        </article>
+      </div>
+
+      <div class="pricing-trust reveal">
+        <div class="trust-row">
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2L3 7v6c0 5 3.5 9.5 9 11 5.5-1.5 9-6 9-11V7l-9-5z"/></svg>
+            <span>Secure checkout</span>
+          </div>
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18"/></svg>
+            <span>Encrypted payments</span>
+          </div>
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 13l4 4L19 7"/></svg>
+            <span>180-day guarantee</span>
+          </div>
+          <div class="trust-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <span>Ships within 24 hours</span>
+          </div>
+        </div>
+        <div class="payment-row">
+          <span class="payment-label">We accept:</span>
+          <div class="payment-icons">
+            <div class="pay-icon pay-visa">VISA</div>
+            <div class="pay-icon pay-mc">
+              <span class="mc-circle mc-red"></span>
+              <span class="mc-circle mc-yellow"></span>
+            </div>
+            <div class="pay-icon pay-amex">AMEX</div>
+            <div class="pay-icon pay-discover">DISCOVER</div>
+            <div class="pay-icon pay-paypal">PayPal</div>
+            <div class="pay-icon pay-apple">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.05 11.97c.03 2.65 2.34 3.53 2.36 3.54-.02.06-.37 1.27-1.22 2.52-.74 1.08-1.5 2.16-2.7 2.18-1.19.02-1.57-.7-2.92-.7-1.36 0-1.78.68-2.91.72-1.17.04-2.05-1.17-2.79-2.25-1.52-2.2-2.69-6.21-1.12-8.92.78-1.35 2.17-2.2 3.69-2.22 1.14-.02 2.21.77 2.91.77.69 0 2.01-.95 3.39-.81.58.02 2.21.23 3.26 1.76-.08.05-1.94 1.13-1.92 3.37M14.84 4.32c.62-.75 1.04-1.79.92-2.82-.89.03-1.96.59-2.6 1.34-.58.66-1.08 1.71-.95 2.73 1 .07 2.01-.51 2.63-1.25"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BONUSES -->
+  <section class="bonuses">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center"><span class="eyebrow-dot"></span>Free with 3 &amp; 6 bottle orders</span>
+        <h2 class="h2">Two bonus guides — yours free.</h2>
+        <p class="section-sub">A combined $74 in retail value, included at no extra cost.</p>
+      </div>
+
+      <div class="bonuses-grid">
+        <article class="bonus-card reveal">
+          <div class="bonus-visual">
+            <img src="images/book-cover-2.png" alt="Prostate Health Drinks bonus book" loading="lazy">
+          </div>
+          <div class="bonus-copy">
+            <span class="bonus-value">$37 Value · FREE</span>
+            <h3>Prostate Health Drinks</h3>
+            <p>21 quick, delicious drink recipes formulated to amplify everything VIRESMED does — including ingredients that support flow, hormones, and energy.</p>
+          </div>
+        </article>
+
+        <article class="bonus-card reveal">
+          <div class="bonus-visual">
+            <img src="images/book-cover-5.png" alt="Healthy Sex Drive Plan bonus book" loading="lazy">
+          </div>
+          <div class="bonus-copy">
+            <span class="bonus-value">$37 Value · FREE</span>
+            <h3>The Healthy Drive Plan</h3>
+            <p>A 30-day reset for men who want to reignite drive and confidence — covering food, sleep, movement, and small daily rituals that compound.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- GUARANTEE — split layout -->
+  <section class="guarantee">
+    <div class="container">
+      <div class="guarantee-split reveal">
+        <div class="guarantee-seal-col">
+          <img src="images/MBG.png" alt="100% Money-Back Guarantee for 180 days" loading="lazy" class="guarantee-seal">
+          <div class="guarantee-seal-stat">
+            <span class="seal-num">180</span>
+            <span class="seal-label">DAYS</span>
+            <span class="seal-sub">Full refund · no questions</span>
+          </div>
+        </div>
+        <div class="guarantee-content-col">
+          <span class="eyebrow"><span class="eyebrow-dot"></span>Risk-free promise</span>
+          <h2 class="h2">Try VIRESMED for <em>six full months</em>. If you're not satisfied, we don't keep your money.</h2>
+          <ul class="guarantee-list">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>Full 180 days</strong> to feel the difference</div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>Even empty bottles</strong> qualify for a refund</div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>48-hour refund</strong> processing on every return</div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>No fine print.</strong> No "satisfaction conditions." Just a promise.</div>
+            </li>
+          </ul>
+          <div class="guarantee-cta-row">
+            <a href="#CTA_LINK" class="btn btn-primary btn-lg">Get Started Risk-Free</a>
+            <span class="guarantee-meta">Many customers report noticing changes in 3-4 weeks.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow center"><span class="eyebrow-dot"></span>Common questions</span>
+        <h2 class="h2">Everything else you might be wondering.</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item reveal">
+          <summary>
+            <span>What exactly is VIRESMED?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">A daily prostate-support supplement made from 11 carefully chosen natural ingredients — herbs, roots, and essential minerals — designed to support healthy blood flow, hormonal balance, and the cellular environment around the prostate.</div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>How do I take it?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">Mix one scoop into water or your favorite beverage once a day. For best results, take it at the same time each day, ideally alongside a meal.</div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>How fast will I see results?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">Most men report noticeable changes — better sleep, smoother flow, more energy — within 2 to 4 weeks. Deeper results compound over 60-90 days, which is why the 3 and 6 bottle packages are the most popular.</div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>Is it safe to take with my other medications?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">VIRESMED is made from natural ingredients and is generally well tolerated. As with any supplement, we recommend speaking with your doctor before adding it to a routine that includes prescription medications.</div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>Are there any side effects?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">No serious side effects have been reported. The formula is non-GMO, non-habit-forming, and made in a GMP-certified facility. If anything ever feels off, stop use and speak with your healthcare provider.</div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>What if it doesn't work for me?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">Every order is backed by our 180-day money-back guarantee. If you're not satisfied for any reason — or no reason at all — contact our support team and we'll refund the full purchase. Even on empty bottles.</div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>Where can I buy VIRESMED?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">Only here, through our official site. We don't sell on Amazon, Walmart, or eBay. This protects you from counterfeit batches and lets us guarantee freshness and quality.</div>
+        </details>
+
+        <details class="faq-item reveal">
+          <summary>
+            <span>How long does shipping take?</span>
+            <span class="faq-icon" aria-hidden="true"></span>
+          </summary>
+          <div class="faq-body">U.S. orders typically arrive in 3-5 business days. International orders take longer depending on destination. You'll get a tracking link by email the moment your order ships.</div>
+        </details>
+      </div>
+
+      <div class="faq-help reveal">
+        <p>Still have questions? Email <a href="mailto:support@viresmed.com">support@viresmed.com</a> — we usually respond within a few hours.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="final-cta">
+    <div class="container final-cta-inner reveal">
+      <h2 class="display">One bottle a day. Six months to feel like yourself again.</h2>
+      <p>Whatever you've tried before — the diet changes, the awkward conversations, the products that didn't deliver — give the body what it actually needs. Quietly, daily, for long enough to feel the difference.</p>
+      <a href="#CTA_LINK" class="btn btn-primary btn-xl">
+        Claim Your VIRESMED Bottles
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+      <p class="final-cta-meta">180-day guarantee · Ships within 24 hours · Made in the USA</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#top" class="brand brand-light">
+          <span class="brand-mark">VM</span>
+          <span class="brand-name">VIRESMED</span>
+        </a>
+        <p>A precision-formulated prostate-support supplement made for men over 40 who refuse to compromise.</p>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Product</h4>
+          <a href="#benefits">Benefits</a>
+          <a href="#ingredients">Ingredients</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#pricing">Pricing</a>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <a href="about.html">About Us</a>
+          <a href="contact.html">Contact</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <a href="shipping.html">Shipping Policy</a>
+          <a href="refunds.html">Returns &amp; Refunds</a>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms &amp; Conditions</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-disclaimer">
+      <p><strong>FDA Disclaimer:</strong> These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease. Always consult with a qualified healthcare provider before starting any new supplement, especially if you have an existing medical condition or take prescription medications.</p>
+      <p><strong>Results Disclaimer:</strong> Individual results may vary. The testimonials, reviews, and statements on this website reflect the personal experiences of specific customers and are not necessarily typical. We make no guarantee that you will achieve the same or similar results.</p>
+      <p><strong>Advertising Disclosure:</strong> This website may include sponsored content, affiliate links, or third-party advertisements. We may receive compensation when you purchase products through links on this site, at no additional cost to you.</p>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 VIRESMED. All rights reserved.</p>
+      <p>Product Support: <a href="mailto:support@viresmed.com">support@viresmed.com</a></p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
